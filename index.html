@@ -5,402 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + Tailwind CSS</title>
   </head>
-  <body class="bg-[#f8f9ff]">
-    <div class="container flex flex-col-reverse tablet:flex-col">
-      <section>
-        <div class="container">
-          <div class="py-[110px] text-center gap-5">
-            <h3 class="text-[38px] font-bold">Our Metrics Tell the Story</h3>
-            <p>
-              Our metrics component gives you the inside scoop on your success
-              and helps you stay on top of your game in style.
-            </p>
+  <body>
+    <header class="bg-[#F8D57E]">
+      <div class="container">
+        <nav class="py-[20px] flex justify-between">
+          <div class="flex items-center gap-[6px]">
+            <img src="./images/logo.svg" alt="" />
+            <b class="text-[21px] font-bold">
+              Landing<span class="font-normal">Page</span>
+            </b>
           </div>
-          <div
-            class="grid grid-cols-2 gap-y-[10px] gap-x-[30px] tablet:grid-cols-4"
-          >
-            <div
-              class="bg-[#FFFFFF] py-[48px] shadow-custom-shadow rounded-t[16px] text-center border-b-2 border-b-secondary"
-            >
-              <span class="font-extrabold text-[38px]">10k+</span>
-              <br />
-              <span class="">Website launched</span>
-            </div>
-            <div
-              class="bg-[#FFFFFF] py-[48px] shadow-custom-shadow rounded-t[16px] text-center border-b-2 border-b-secondary"
-            >
-              <span class="font-extrabold text-[38px]">10k+</span>
-              <br />
-              <span class="">Website launched</span>
-            </div>
-            <div
-              class="bg-[#FFFFFF] py-[48px] shadow-custom-shadow rounded-t[16px] text-center border-b-2 border-b-secondary"
-            >
-              <span class="font-extrabold text-[38px]">10k+</span>
-              <br />
-              <span class="">Website launched</span>
-            </div>
-            <div
-              class="bg-[#FFFFFF] py-[48px] shadow-custom-shadow rounded-t[16px] text-center border-b-2 border-b-secondary"
-            >
-              <span class="font-extrabold text-[38px]">10k+</span>
-              <br />
-              <span class="">Website launched</span>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div
-          class="container py-28 flex flex-col tablet:flex justify-between items-center gap-[72px]"
-        >
-          <div class="flex justify-center">
-            <img class="w-full" src="./images/Visuals (1).png" alt="" />
-          </div>
-          <div class="pt-16 w-full">
-            <h3 class="text-4xl font-extrabold pb-5 text-[40px]">
-              Get Landing Page UI Kit <br />
-              Today!
-            </h3>
-            <p class="font-semiboldbold text-[20px]">
-              Break the Figma limits and explore the endless possibilities with
-              Anima.
-            </p>
-            <div class="pt-10">
+          <div class="flex gap-[50px] items-center">
+            <p class="text-[#009379] tablet:hidden">Contact</p>
+            <div class="flex gap-[20px] items-center">
               <button
-                class="bg-secondary flex py-3 gap-2 px-8 font-bold text-white rounded-xl hover:bg-slate-600 transition"
+                class="text-[#009379] bg-[#E5F4F2] rounded-[20px] py-[18px] px-[50px] tablet:hidden"
               >
-                <span class="">Get Started</span>
-                <img src="./images/ArrowRight.png" alt="" />
+                How it works
+              </button>
+              <button
+                class="text-[#ffffff] bg-[#009379] rounded-[20px] py-[18px] px-[50px] flex gap-[2px] items-center"
+              >
+                <img src="./images/rocket.svg" alt="" /> Get Started
               </button>
             </div>
           </div>
-        </div>
-      </section>
-    </div>
+        </nav>
+      </div>
+    </header>
 
-    <section>
-      <div class="container py-20">
-        <div class="text-center">
-          <p class="font-bold text-[38px]">
-            Real Stories from Satisfied Customers
-          </p>
-          <span class="pb-14"
-            >See how our landing page ui kit is making an impact.</span
-          >
-        </div>
-        <div>
-          <div
-            class="grid grid-cols-1 text-center py-8 gap-5 tablet:grid-cols-3 w-full"
-          >
-            <div
-              class="flex flex-col justify-center items-center pt-16 w-80 bg-slate-100 rounded-2xl"
-            >
-              <img class="w-14 h-14" src="./images/Photo (1).png" alt="" />
-              <span class="pt-4 pb-2 font-bold">Sarah K.</span>
-              <span class="pb-8">UX Designer @Brello</span>
-              <p class="px-4">
-                "I was looking for a way to streamline my design process and the
-                Anima’s Landing Page UI Kit was a lifesaver! The intuitive
-                design and ease of customisation have saved me hours of time and
-                effort. Highly recommend!"
+    <div class="bg-[#F8D57E]">
+      <div class="container">
+        <div class="pt-[120px] flex justifiy-between items-center">
+          <div class="flex flex-col gap-[20px] items-center">
+            <div class="">
+              <h1 class="font-bold text-[67px] text-center">
+                Create Engaging Landing Pages
+              </h1>
+              <p class="font-normal text-[21px] mb-[20px] w-[620px]">
+                Build beautiful landing pages in record time with
+                <span class="text-[blue]">Anima’s</span> Landing Page UI kit for
+                Figma. No code required!
               </p>
-              <div class="flex py-4">
-                <img src="./images/Star Icon.svg" alt="" />
-                <img src="./images/Star Icon.svg" alt="" />
-                <img src="./images/Star Icon.svg" alt="" />
-                <img src="./images/Star Icon.svg" alt="" />
-                <img src="./images/Star Icon.svg" alt="" />
-              </div>
             </div>
             <div
-              class="flex flex-col justify-center items-center pt-16 w-80 bg-slate-100 rounded-2xl"
+              class="flex gap-[20px] items-center flex-colreverse tablet:flex"
             >
-              <img class="w-14 h-14" src="./images/Photo (1).png" alt="" />
-              <span class="pt-4 pb-2 font-bold">Sarah K.</span>
-              <span class="pb-8">UX Designer @Brello</span>
-              <p class="px-4">
-                "I was looking for a way to streamline my design process and the
-                Anima’s Landing Page UI Kit was a lifesaver! The intuitive
-                design and ease of customisation have saved me hours of time and
-                effort. Highly recommend!"
-              </p>
-              <div class="flex py-4">
-                <img src="./images/Star Icon.svg" alt="" />
-                <img src="./images/Star Icon.svg" alt="" />
-                <img src="./images/Star Icon.svg" alt="" />
-                <img src="./images/Star Icon.svg" alt="" />
-                <img src="./images/Star Icon.svg" alt="" />
-              </div>
-            </div>
-            <div
-              class="flex flex-col justify-center items-center pt-16 w-80 bg-slate-100 rounded-2xl"
-            >
-              <img class="w-14 h-14" src="./images/Photo (1).png" alt="" />
-              <span class="pt-4 pb-2 font-bold">Sarah K.</span>
-              <span class="pb-8">UX Designer @Brello</span>
-              <p class="px-4">
-                "I was looking for a way to streamline my design process and the
-                Anima’s Landing Page UI Kit was a lifesaver! The intuitive
-                design and ease of customisation have saved me hours of time and
-                effort. Highly recommend!"
-              </p>
-              <div class="flex py-4">
-                <img src="./images/Star Icon.svg" alt="" />
-                <img src="./images/Star Icon.svg" alt="" />
-                <img src="./images/Star Icon.svg" alt="" />
-                <img src="./images/Star Icon.svg" alt="" />
-                <img src="./images/Star Icon.svg" alt="" />
-              </div>
+              <button
+                class="text-[#009379] bg-[#E5F4F2] rounded-[20px] py-[18px] px-[50px]"
+              >
+                How it works
+              </button>
+              <button
+                class="text-[#ffffff] bg-[#009379] rounded-[20px] py-[18px] px-[50px] flex gap-[2px] items-center"
+              >
+                <img src="./images/rocket.svg" alt="" /> Get Started
+              </button>
             </div>
           </div>
+          <img src="./images/phone1.png" alt="" />
         </div>
       </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="text-center py-20">
-          <span class="font-bold text-[38px] pb-5">Pick Your Perfect Plan</span>
-          <p>
-            Find the perfect plan for your business with our flexible pricing
-            options.
-          </p>
-        </div>
-        <div class="py-7 rounded-3xl">
-          <div class="grid grid-cols-1 tablet:grid-cols-3 gap-6">
-            <div class="bg-slate-100 rounded-xl py-3">
-              <div class="flex flex-col p-4">
-                <span class="font-normal">Free</span>
-                <div class="gap-2">
-                  <span class="font-extrabold text-[50px]">$0</span>
-                  <span class="font-bold">/ month</span>
-                </div>
-                <span>Best for Small Teams or Individuals.</span>
-                <div class="gap-4 py-7">
-                  <div class="flex gap-2">
-                    <img src="./images/Vector (1).svg" alt="" />
-                    <span class="font-bold">Write feature details here</span>
-                  </div>
-                  <div class="flex gap-2">
-                    <img src="./images/Vector (1).svg" alt="" />
-                    <span class="font-bold">Write feature details here</span>
-                  </div>
-                  <div class="flex gap-2">
-                    <img src="./images/Vector (1).svg" alt="" />
-                    <span class="font-bold">Write feature details here</span>
-                  </div>
-                </div>
-                <button
-                  class="py-3 px-0 flex justify-center bg-green-200 rounded-2xl text-secondary"
-                >
-                  Get Started
-                </button>
-              </div>
-            </div>
-            <div class="bg-slate-100 rounded-xl py-3">
-              <div class="flex flex-col p-4">
-                <span class="font-normal">Free</span>
-                <div class="gap-2">
-                  <span class="font-extrabold text-[50px]">$0</span>
-                  <span class="font-bold">/ month</span>
-                </div>
-                <span>Best for Small Teams or Individuals.</span>
-                <div class="gap-4 py-7">
-                  <div class="flex gap-2">
-                    <img src="./images/Vector (1).svg" alt="" />
-                    <span class="font-bold">Write feature details here</span>
-                  </div>
-                  <div class="flex gap-2">
-                    <img src="./images/Vector (1).svg" alt="" />
-                    <span class="font-bold">Write feature details here</span>
-                  </div>
-                  <div class="flex gap-2">
-                    <img src="./images/Vector (1).svg" alt="" />
-                    <span class="font-bold">Write feature details here</span>
-                  </div>
-                </div>
-                <button
-                  class="py-3 px-0 flex justify-center bg-green-200 rounded-2xl text-secondary"
-                >
-                  Get Started
-                </button>
-              </div>
-            </div>
-            <div class="bg-slate-100 rounded-xl py-3">
-              <div class="flex flex-col p-4">
-                <span class="font-normal">Free</span>
-                <div class="gap-2">
-                  <span class="font-extrabold text-[50px]">$0</span>
-                  <span class="font-bold">/ month</span>
-                </div>
-                <span>Best for Small Teams or Individuals.</span>
-                <div class="gap-4 py-7">
-                  <div class="flex gap-2">
-                    <img src="./images/Vector (1).svg" alt="" />
-                    <span class="font-bold">Write feature details here</span>
-                  </div>
-                  <div class="flex gap-2">
-                    <img src="./images/Vector (1).svg" alt="" />
-                    <span class="font-bold">Write feature details here</span>
-                  </div>
-                  <div class="flex gap-2">
-                    <img src="./images/Vector (1).svg" alt="" />
-                    <span class="font-bold">Write feature details here</span>
-                  </div>
-                </div>
-                <button
-                  class="py-3 px-0 flex justify-center bg-green-200 rounded-2xl text-secondary"
-                >
-                  Get Started
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <section>
-          <div class="container">
-            <div class="text-center py-11">
-              <span class="font-bold">Meet our team</span>
-              <p class="">
-                Get to know the faces behind the scenes and learn about the
-                values that drive us.
-              </p>
-            </div>
-            <div class="grid grid-cols-1 gap-6 tablet:grid-cols-3">
-              <div
-                class="flex flex-col justify-center items-center gap-3 pt-10 pb-7"
-              >
-                <img
-                  class="w-[370px] h-[278px]"
-                  src="./images/Profile Image Placeholder 1.png"
-                  alt=""
-                />
-                <span class="font-bold pb-3">Sarah K.</span>
-                <span>UX Designer</span>
-                <div class="flex justify-center gap-3 pt-10 pb-7">
-                  <img src="./images/Social Icons.svg" alt="" />
-                  <img src="./images/Social Icons.svg" alt="" />
-                  <img src="./images/Social Icons.svg" alt="" />
-                </div>
-              </div>
-              <div
-                class="flex flex-col justify-center items-center gap-3 pt-10"
-              >
-                <img
-                  class="w-[370px] h-[278px]"
-                  src="./images/Profile Image Placeholder 1.png"
-                  alt=""
-                />
-                <span class="font-bold pb-3">Sarah K.</span>
-                <span>UX Designer</span>
-                <div class="flex justify-center gap-3 pt-10 pb-7">
-                  <img src="./images/Social Icons.svg" alt="" />
-                  <img src="./images/Social Icons.svg" alt="" />
-                  <img src="./images/Social Icons.svg" alt="" />
-                </div>
-              </div>
+    </div>
 
-              <div
-                class="flex flex-col justify-center items-center gap-3 pt-10"
-              >
-                <img
-                  class="w-[370px] h-[278px]"
-                  src="./images/Profile Image Placeholder 1.png"
-                  alt=""
-                />
-                <span class="font-bold pb-3">Sarah K.</span>
-                <span>UX Designer</span>
-                <div class="flex justify-center gap-3 pt-10">
-                  <img src="./images/Social Icons.svg" alt="" />
-                  <img src="./images/Social Icons.svg" alt="" />
-                  <img src="./images/Social Icons.svg" alt="" />
+    <section class="bg-[#F8F9FF] py-[120px]">
+      <div class="container">
+        <div class="flex tablet:flex-col">
+          <img class="w-full" src="./images/phone2.png" alt="" />
+          <div class="flex flex-col gap-[20px] items-center">
+            <div>
+              <h1 class="font-bold text-[38px]">Our features</h1>
+              <p class="text-[21px] mb-[30px] w-[570px]">
+                Few good reasons why you should use Anima Landing Page Ui Kit to
+                make your own pages.
+              </p>
+              <div class="grid gap-[20px] tablet:grid-cols-2 grid-cols-1">
+                <div
+                  class="flex w-[275px] bg-[#FFFFFF] items-center gap-[20px] p-[20px] rounded-[20px]"
+                >
+                  <img src="./images/Icon.svg" alt="" /> Fast building
+                </div>
+                <div
+                  class="flex w-[275px] bg-[#FFFFFF] items-center gap-[20px] p-[20px] rounded-[20px]"
+                >
+                  <img src="./images/Icon2.svg" alt="" /> Easy to edit
+                </div>
+                <div
+                  class="flex w-[275px] bg-[#FFFFFF] items-center gap-[20px] p-[20px] rounded-[20px]"
+                >
+                  <img src="./images/Icon3.svg" alt="" /> Responsiveness
+                </div>
+                <div
+                  class="flex w-[275px] bg-[#FFFFFF] items-center gap-[20px] p-[20px] rounded-[20px]"
+                >
+                  <img src="./images/Icon4.svg" alt="" /> No code needed
                 </div>
               </div>
             </div>
           </div>
-        </section>
-        <section>
-          <div class="container py-20">
-            <div class="bg-[#F2BFAF] flex rounded-3xl tablet:flex">
-              <div class="pt-14 p-9">
-                <h3 class="font-bold text-[50px] pb-5">
-                  Get Landing Page <br />
-                  UI Kit Today!
-                </h3>
-                <p class="text-[21px] pb-10">
-                  Break the Figma limits and explore the endless <br />
-                  possibilities with Anima.
-                </p>
-                <button class="bg-secondary flex py-4 px-7 rounded-2xl gap-2">
-                  <span class="text-teal-50">Get Started</span>
-                  <img src="./images/ArrowRight.png" alt="" />
-                </button>
-              </div>
-              <div>
-                <img src="./images/Mockup.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </section>
+        </div>
         <script type="module" src="./main.js"></script>
       </div>
     </section>
-
-    <section>
-      <div class="container py-28 flex flex-col tablet:flex">
-        <div class="py-16 gap-2">
-          <h4 class="font-bold text-[38px]">Let’s get in touch!</h4>
-          <p class="">
-            Got questions about the Landing Page UI Kit? Our team is here to
-            help. Contact us for quick and friendly support.
-          </p>
-        </div>
-        <div class="flex justify-between">
-          <div>
-            <div class="flex gap-3 py-5">
-              <img src="./images/Vector (2).svg" alt="" />
-              <span>+012 345 6789</span>
-            </div>
-            <div class="flex gap-3 pb-16">
-              <img src="./images/EnvelopeSimple.svg" alt="" />
-              <span>Hello@animaapp.com</span>
-            </div>
-            <span class="font-bold text-[21px]">Connect with us</span>
-            <div class="flex gap-4 py-5">
-              <img src="./images/Social Icons (1).svg" alt="" />
-              <img src="./images/Social Icons (1).svg" alt="" />
-              <img src="./images/Social Icons (1).svg" alt="" />
-              <img src="./images/Social Icons (1).svg" alt="" />
-            </div>
-          </div>
-          <div class="flex flex-col gap-3">
-            <input
-              class="text-[#FFFFFF] rounded-2xl w-[465px] h-16"
-              type="text"
-            />
-            <input class="text-[#FFFFFF] rounded-2xl h-16" type="text" />
-            <button
-              class="py-3 flex items-center justify-center rounded-2xl text-white bg-secondary"
-            >
-              Submit
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      <div class="container flex justify-between items-center bg-black p-5">
-        <div>
-          <span class="text-white">© 2023 Anima’s Landing Page Ui Kit. </span>
-        </div>
-        <div class="flex justify-center gap-3">
-          <img src="./images/Social Icons (1).svg" alt="" />
-          <img src="./images/Social Icons (1).svg" alt="" />
-          <img src="./images/Social Icons (1).svg" alt="" />
-          <img src="./images/Social Icons (1).svg" alt="" />
-        </div>
-      </div>
-    </footer>
   </body>
 </html>
