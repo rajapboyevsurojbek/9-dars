@@ -16,10 +16,14 @@
             </b>
           </div>
           <div class="flex gap-[50px] items-center">
-            <p class="text-[#009379] tablet:hidden">Contact</p>
+            <p
+              class="text-[#009379] font-[600] hidden tablet:hidden desktop:block"
+            >
+              Contact
+            </p>
             <div class="flex gap-[20px] items-center">
               <button
-                class="text-[#009379] bg-[#E5F4F2] rounded-[20px] py-[18px] px-[50px] tablet:hidden"
+                class="text-[#009379] bg-[#E5F4F2] rounded-[20px] py-[18px] px-[50px] hidden tablet:hidden desktop:block"
               >
                 How it works
               </button>
@@ -36,20 +40,22 @@
 
     <div class="bg-[#F8D57E]">
       <div class="container">
-        <div class="pt-[120px] flex justifiy-between items-center">
-          <div class="flex flex-col gap-[20px] items-center">
+        <div class="pt-[120px] flex flex-col items-center">
+          <div
+            class="flex flex-col-reverse gap-[20px] items-cente tablet:flex-col desktop:flex"
+          >
             <div class="">
               <h1 class="font-bold text-[67px] text-center">
                 Create Engaging Landing Pages
               </h1>
-              <p class="font-normal text-[21px] mb-[20px] w-[620px]">
+              <p class="text-[21px] mb-[20px] w-[620px] w-full">
                 Build beautiful landing pages in record time with
                 <span class="text-[blue]">Anima’s</span> Landing Page UI kit for
                 Figma. No code required!
               </p>
             </div>
             <div
-              class="flex gap-[20px] items-center flex-colreverse tablet:flex"
+              class="flex justify-center items-center gap-[20px] flex-colreverse tablet:flex"
             >
               <button
                 class="text-[#009379] bg-[#E5F4F2] rounded-[20px] py-[18px] px-[50px]"
@@ -59,27 +65,28 @@
               <button
                 class="text-[#ffffff] bg-[#009379] rounded-[20px] py-[18px] px-[50px] flex gap-[2px] items-center"
               >
-                <img src="./images/rocket.svg" alt="" /> Get Started
+                <img class="" src="./images/RocketLaunch (1).svg" alt="" /> Get
+                Started
               </button>
             </div>
           </div>
-          <img src="./images/phone1.png" alt="" />
+          <img class="w-full" src="./images/phone1.png" alt="" />
         </div>
       </div>
     </div>
 
-    <section class="bg-[#F8F9FF] py-[120px]">
+    <section class="py-[120px]">
       <div class="container">
-        <div class="flex tablet:flex-col">
+        <div class="flex flex-col-reverse desktop:flex tablet:flex">
           <img class="w-full" src="./images/phone2.png" alt="" />
           <div class="flex flex-col gap-[20px] items-center">
             <div>
-              <h1 class="font-bold text-[38px]">Our features</h1>
-              <p class="text-[21px] mb-[30px] w-[570px]">
+              <h1 class="font-bold text-[38px] text-center">Our features</h1>
+              <p class="text-[21px] mb-[30px] w-full">
                 Few good reasons why you should use Anima Landing Page Ui Kit to
                 make your own pages.
               </p>
-              <div class="grid gap-[20px] tablet:grid-cols-2 grid-cols-1">
+              <div class="grid gap-[20px] grid-cols-1 tablet:grid-cols-2">
                 <div
                   class="flex w-[275px] bg-[#FFFFFF] items-center gap-[20px] p-[20px] rounded-[20px]"
                 >
@@ -104,8 +111,284 @@
             </div>
           </div>
         </div>
-        <script type="module" src="./main.js"></script>
       </div>
     </section>
+    <section>
+      <div class="container">
+        <div class="py-[60px] text-center">
+          <span class="font-bold text-[38px]">Discover our latest work</span>
+          <p>
+            Explore our portfolio and see the latest and greatest projects that
+            we've brought to life.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 gap-8 py-10 tablet:grid-cols-3">
+          <div
+            class="flex flex-col bg-[#FFFFFF] shadow-xl shadow-gray-400 rounded-b-2xl"
+          >
+            <img src="./images/Image Placeholder 1.png" alt="" />
+            <div class="p-4 flex flex-col">
+              <span class="font-bold text-[28px] pt-7 pb-3">Project Title</span>
+              <span class="text-[21px] pb-3">Short Description</span>
+              <span>Category</span>
+            </div>
+          </div>
+          <div
+            class="flex flex-col bg-[#FFFFFF] shadow-xl shadow-gray-400 rounded-b-2xl"
+          >
+            <img src="./images/Image Placeholder 1.png" alt="" />
+            <div class="p-4 flex flex-col">
+              <span class="font-bold text-[28px] pt-7 pb-3">Project Title</span>
+              <span class="text-[21px] pb-3">Short Description</span>
+              <span>Category</span>
+            </div>
+          </div>
+          <div
+            class="flex flex-col bg-[#FFFFFF] shadow-xl shadow-gray-400 rounded-b-2xl"
+          >
+            <img src="./images/Image Placeholder 1.png" alt="" />
+            <div class="p-4 flex flex-col">
+              <span class="font-bold text-[28px] pt-7 pb-3">Project Title</span>
+              <span class="text-[21px] pb-3">Short Description</span>
+              <span>Category</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-[#F8D57E]">
+      <div class="container">
+        <div class="text-center pt-28 pb-14">
+          <h4 class="pb-5 font-bold text-[38px]">
+            Real Stories from Satisfied Customers
+          </h4>
+          <p>See how our landing page ui kit is making an impact.</p>
+        </div>
+        <div
+          class="grid grid-cols-1 gap-[30px] pb-10 tablet:grid-cols-1 desktop:grid-cols-2"
+        >
+          <div class="bg-white flex p-6 gap-[30px] rounded-2xl">
+            <div class="flex flex-col gap-3">
+              <img
+                class="w-[120px] h-[120px]"
+                src="./images/Photo.svg"
+                alt=""
+              />
+              <span class="font-bold text-[21px]">Lauren M.</span>
+              <span>UI Designer @Boo</span>
+            </div>
+            <div>
+              <div class="flex pr-[40px] py-[23px]">
+                <img src="./images/Star Icon (1).svg" alt="" />
+                <img src="./images/Star Icon (1).svg" alt="" />
+                <img src="./images/Star Icon (1).svg" alt="" />
+                <img src="./images/Star Icon (1).svg" alt="" />
+                <img src="./images/Star Icon (1).svg" alt="" />
+              </div>
+              <div>
+                <p>
+                  "Anima’s Landing Page UI Kit has <br />
+                  become a staple in my design toolkit. <br />
+                  This kit has everything I need to get <br />
+                  the job done quickly and efficiently."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white flex p-6 gap-[30px] rounded-2xl">
+            <div class="flex flex-col gap-3">
+              <img
+                class="w-[120px] h-[120px]"
+                src="./images/Photo.svg"
+                alt=""
+              />
+              <span class="font-bold text-[21px]">Lauren M.</span>
+              <span>UI Designer @Boo</span>
+            </div>
+            <div>
+              <div class="flex pr-[40px] py-[23px]">
+                <img src="./images/Star Icon (1).svg" alt="" />
+                <img src="./images/Star Icon (1).svg" alt="" />
+                <img src="./images/Star Icon (1).svg" alt="" />
+                <img src="./images/Star Icon (1).svg" alt="" />
+                <img src="./images/Star Icon (1).svg" alt="" />
+              </div>
+              <div>
+                <p>
+                  "Anima’s Landing Page UI Kit has <br />
+                  become a staple in my design toolkit. <br />
+                  This kit has everything I need to get <br />
+                  the job done quickly and efficiently."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="pt-[120px] pb-[60px] text-center">
+          <span class="font-bold text-[38px]">Meet our team</span>
+          <p>
+            Get to know the faces behind the scenes and learn about the values
+            that drive us.
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-1 py-12 gap-[30px] tablet:grid-cols-1 desktop:grid-cols-3"
+        >
+          <div
+            class="flex flex-col p-[35px] items-center bg-slate-100 rounded-xl"
+          >
+            <img
+              class="w-[100px] h-[100px]"
+              src="./images/Profile Image Placeholder 2.svg"
+              alt=""
+            />
+            <span class="font-bold text-[21px]">Michael L.</span>
+            <br />
+            <span>Product Designer</span>
+            <br />
+            <p>
+              Michael got a sharp eye for detail and the ability to turn any
+              boring interface into a work of art.
+            </p>
+            <button class="text-[#009379] py-[30px] font-bold text-[14px]">
+              <span class="pr-5">Twitter</span>
+              <span class="pr-5">Dribbble</span>
+              <span>Linkedin</span>
+            </button>
+          </div>
+          <div
+            class="flex flex-col p-[35px] items-center bg-slate-100 rounded-xl"
+          >
+            <img
+              class="w-[100px] h-[100px]"
+              src="./images/Profile Image Placeholder 2.svg"
+              alt=""
+            />
+            <span class="font-bold text-[21px]">Michael L.</span>
+            <br />
+            <span>Product Designer</span>
+            <br />
+            <p>
+              Michael got a sharp eye for detail and the ability to turn any
+              boring interface into a work of art.
+            </p>
+            <button class="text-[#009379] py-[30px] font-bold text-[14px]">
+              <span class="pr-5">Twitter</span>
+              <span class="pr-5">Dribbble</span>
+              <span>Linkedin</span>
+            </button>
+          </div>
+          <div
+            class="flex flex-col p-[35px] items-center bg-slate-100 rounded-xl"
+          >
+            <img
+              class="w-[100px] h-[100px]"
+              src="./images/Profile Image Placeholder 2.svg"
+              alt=""
+            />
+            <span class="font-bold text-[21px]">Michael L.</span>
+            <br />
+            <span>Product Designer</span>
+            <br />
+            <p>
+              Michael got a sharp eye for detail and the ability to turn any
+              boring interface into a work of art.
+            </p>
+            <button class="text-[#009379] py-[30px] font-bold text-[14px]">
+              <span class="pr-5">Twitter</span>
+              <span class="pr-5">Dribbble</span>
+              <span>Linkedin</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="pt-[120px] pb-[40px] text-center">
+          <h5 class="font-bold text-[38px] pb-5">More than 50 Integrations</h5>
+          <p>We integrate with more than 50 apps you use daily</p>
+        </div>
+        <div
+          class="grid grid-cols-6 gap-4 tablet:grid-cols-6 desktop:grid-cols-6"
+        >
+          <img src="./images/_Client logo mark.svg" alt="" />
+          <img src="./images/_Client logo mark.svg" alt="" />
+          <img src="./images/_Client logo mark.svg" alt="" />
+          <img src="./images/_Client logo mark.svg" alt="" />
+          <img src="./images/_Client logo mark.svg" alt="" />
+          <img src="./images/_Client logo mark.svg" alt="" />
+        </div>
+        <div
+          class="grid grid-cols-5 gap-[13.7px] px-[105px] tablet:grid-cols-5 desktop:grid-cols-5"
+        >
+          <img src="./images/_Client logo mark.svg" alt="" />
+          <img src="./images/_Client logo mark.svg" alt="" />
+          <img src="./images/_Client logo mark.svg" alt="" />
+          <img src="./images/_Client logo mark.svg" alt="" />
+          <img src="./images/_Client logo mark.svg" alt="" />
+        </div>
+        <div
+          class="grid grid-cols-4 gap-[11.67px] px-[225px] tablet:grid-cols-4 desktop:grid-cols-4"
+        >
+          <img src="./images/_Client logo mark.svg" alt="" />
+          <img src="./images/_Client logo mark.svg" alt="" />
+          <img src="./images/_Client logo mark.svg" alt="" />
+          <img src="./images/_Client logo mark.svg" alt="" />
+        </div>
+        <div class="flex justify-center py-[40px]">
+          <button class="py-4 px-[50px] bg-secondary text-white rounded-[20px]">
+            View All Integrations
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="bg-[#F8D57E]">
+      <div class="container">
+        <div class="text-center pt-[60px]">
+          <span class="pb-5 font-bold text-[50px]"
+            >Get Landing Page UI Kit Today!</span
+          >
+          <p class="text-[21px] pb-10">
+            Break Figma limits and explore the endless possibilities with Anima.
+          </p>
+          <div class="flex justify-center pb-10">
+            <button
+              class="flex bg-secondary py-[18px] gap-2 rounded-3xl text-white"
+            >
+              <img
+                class="pl-[50px]"
+                src="./images/RocketLaunch (1).svg "
+                alt=""
+              />
+              <span class="pr-[50px]">Get Started</span>
+            </button>
+          </div>
+          <div class="flex justify-center">
+            <img class="w-full" src="./images/Desktop-gray.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-[#2D2D2D]">
+      <div
+        class="container flex flex-co tablet:justify-between desktop:justify-between py-6"
+      >
+        <div class="text-white">
+          <p>© 2023 Anima’s Landing Page Ui Kit.</p>
+        </div>
+        <div class="flex justify-center gap-4">
+          <img src="./images/Social Icons (2).svg" alt="" />
+          <img src="./images/Social Icons (2).svg" alt="" />
+          <img src="./images/Social Icons (2).svg" alt="" />
+          <img src="./images/Social Icons (2).svg" alt="" />
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
